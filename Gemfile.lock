@@ -46,6 +46,10 @@ GEM
     diff-lcs (1.2.4)
     erubis (2.7.0)
     execjs (2.0.2)
+    fabrication (2.8.0)
+    fabrication-rails (0.0.1)
+      fabrication
+      railties (>= 3.0)
     haml (4.0.3)
       tilt
     hike (1.2.3)
@@ -148,6 +152,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails
+  fabrication-rails
   haml
   jbuilder
   jquery-rails
